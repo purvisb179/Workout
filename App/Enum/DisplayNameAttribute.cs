@@ -1,8 +1,11 @@
 namespace App.Enum;
 
-public class DisplayName : BaseAttribute
+public class DisplayName : Attribute
 {
-    public DisplayName(string text) : base(text)
+    public readonly string Text;
+
+    public DisplayName(string text)
     {
+        Text = text;
     }
 }

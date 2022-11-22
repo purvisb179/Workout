@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c719030a-d6e4-41a5-b6c2-9014c49f58c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Enum/BaseAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Enum/CategoryAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Enum/DisplayNameAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Enum/EnumExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Enum/Muscle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sandbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sandbox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Enum/CategoryAttribute.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1668474109028" duration="61000" />
       <workItem from="1669069474108" duration="6139000" />
       <workItem from="1669131200218" duration="1656000" />
-      <workItem from="1669142110224" duration="5726000" />
+      <workItem from="1669142110224" duration="6141000" />
     </task>
     <servers />
   </component>
