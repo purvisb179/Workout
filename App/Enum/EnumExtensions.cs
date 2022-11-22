@@ -1,28 +1,24 @@
-using System.ComponentModel;
-using System.Reflection;
-
 namespace App.Enum;
 
 public static class EnumExtensions
 { 
-    public static string GetDisplayName(this System.Enum enumeration)
+    private static TReturn? Get<TAttribute, TReturn>(this System.Enum enumeration) where TAttribute : BaseAttribute
     {
         var type = enumeration.GetType();
         var memInfo = type.GetMember(enumeration.ToString());
-        
-        if (memInfo.Length <= 0) return enumeration.ToString();
-        var attrs = memInfo[0].GetCustomAttributes(typeof(DisplayName), false);
-        return attrs.Length > 0 ? ((DisplayName)attrs[0]).Text : enumeration.ToString();
+        if (memInfo.Length <= 0) return default;
+        var attrs = memInfo[0].GetCustomAttributes(typeof(TAttribute), false);
+        return attrs.Length > 0 ? (TReturn?)((TAttribute)attrs[0]).Content : default;
     }
     
-    public static string GetMuscleGroup(this System.Enum enumeration)
+    public static string GetDisplayName(this System.Enum enumeration)
     {
-        var type = enumeration.GetType();
-        var memInfo = type.GetMember(enumeration.ToString());
-        
-        if (memInfo.Length <= 0) return enumeration.ToString();
-        var attrs = memInfo[0].GetCustomAttributes(typeof(DisplayName), false);
-        return attrs.Length > 0 ? ((DisplayName)attrs[0]).Text : enumeration.ToString();
+        return Get<DisplayName, string>(enumeration) ?? string.Empty;
+    }
+    
+    public static MuscleGroup GetMuscleGroup(this System.Enum enumeration)
+    {
+        return Get<MuscleGroupAttribute, MuscleGroup>(enumeration);
     }
     
     

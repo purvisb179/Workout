@@ -1,11 +1,13 @@
+using System.ComponentModel;
+
 namespace App.Enum;
 
 public enum Muscle
 {
-    [DisplayName("Pectoralis Major")]
-    [Chest]
+    [Enum.DisplayName("Pectoralis Major")]
+    [MuscleGroup(MuscleGroup.Chest)]
     PectoralisMajor,
-    [DisplayName("Pectoralis Minor")]
-    [Chest]
+    [Enum.DisplayName("Pectoralis Minor")]
+    [MuscleGroup(MuscleGroup.Chest)]
     PectoralisMinor
 }
