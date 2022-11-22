@@ -1,4 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=049ddde9_002D5464_002D41c5_002D81dd_002D74e56feea181/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;App.test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;ProjectFile&gt;C46A7545-946B-4268-8693-0300FD2DCDF8/f:BasicTests.cs&lt;/ProjectFile&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=049ddde9_002D5464_002D41c5_002D81dd_002D74e56feea181/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;App.test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;C46A7545-946B-4268-8693-0300FD2DCDF8/f:BasicTests.cs&lt;/ProjectFile&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.PostTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ca0bc19_002D1760_002D4248_002D8819_002De72d2828a8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.PostTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
