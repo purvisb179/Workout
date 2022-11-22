@@ -31,6 +31,7 @@ app.MapControllerRoute(
 
 app.MapFallbackToFile("index.html");
 
+app.MapGet("/", () => "Hello World!");
 
 app.Run();
 

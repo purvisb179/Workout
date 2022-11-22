@@ -14,7 +14,7 @@ public class BasicTests
     }
 
     [Theory]
-    [InlineData("/post")]
+    [InlineData("/")]
     public async Task Get_EndpointsReturnSuccessAndCorrectContentType(string url)
     {
         var client = _factory.CreateClient();
@@ -22,7 +22,7 @@ public class BasicTests
         var response = await client.GetAsync(url);
         
         response.EnsureSuccessStatusCode(); // Status Code 200-299
-        Assert.Equal("application/json; charset=utf-8", 
+        Assert.Equal("text/plain; charset=utf-8", 
             response.Content.Headers.ContentType?.ToString());
     }
     

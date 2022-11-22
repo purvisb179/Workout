@@ -1,11 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=049ddde9_002D5464_002D41c5_002D81dd_002D74e56feea181/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;App.test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Or&gt;
-    &lt;Project Location="/home/bpurvis/RiderProjects/Sandbox/App.test" Presentation="&amp;lt;App.test&amp;gt;" /&gt;
-    &lt;TestAncestor&gt;
-      &lt;TestId&gt;xUnit::E81DAB0F-6AE2-46DF-8B56-00265BDABD4E::net6.0::App.test.integration.BasicTests.Get_EndpointsReturnSuccessAndCorrectContentType&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.Get_EndpointsReturnSuccessAndCorrectContentType&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.DbTest&lt;/TestId&gt;
-    &lt;/TestAncestor&gt;
-  &lt;/Or&gt;
+  &lt;ProjectFile&gt;C46A7545-946B-4268-8693-0300FD2DCDF8/f:BasicTests.cs&lt;/ProjectFile&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
