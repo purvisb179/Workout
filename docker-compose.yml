@@ -1,0 +1,10 @@
+version: "3"
+services:
+  sql:
+    image: bitnami/mariadb:10.6.8-debian-11-r21
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: application
