@@ -21,5 +21,10 @@ public static class EnumExtensions
         return Get<MuscleGroupAttribute, MuscleGroup>(enumeration);
     }
     
-    
+    public static IEnumerable<TEnum> GetEnumerable<TEnum>()
+        where TEnum : struct
+    {
+        if (!typeof(TEnum).IsEnum) throw new InvalidOperationException();
+        return System.Enum.GetValues(typeof(TEnum)).Cast<TEnum>();
+    }
 }

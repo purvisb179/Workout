@@ -9,5 +9,5 @@ public enum Muscle
     PectoralisMajor,
     [Enum.DisplayName("Pectoralis Minor")]
     [MuscleGroup(MuscleGroup.Chest)]
-    PectoralisMinor
+    PectoralisMinor,
 }

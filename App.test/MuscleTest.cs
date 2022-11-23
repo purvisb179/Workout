@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using App.Enum;
 using NUnit.Framework;
@@ -13,5 +14,12 @@ public class MuscleTest
         const Muscle muscle = Muscle.PectoralisMajor;
         Assert.AreEqual("Pectoralis Major", muscle.GetDisplayName());
         Assert.AreEqual(MuscleGroup.Chest, muscle.GetMuscleGroup());
+    }
+    
+    [Test]
+    public async Task MuscleEnumListTest()
+    {
+        var muscleList = EnumExtensions.GetEnumerable<Muscle>();
+        Assert.IsTrue(muscleList.Count() > 1);
     }
 }
