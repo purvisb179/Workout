@@ -8,4 +8,5 @@ public enum MuscleGroup
     Arms,
     Shoulders,
     Legs,
+    Core
 }
