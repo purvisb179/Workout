@@ -1,5 +1,6 @@
 using System.Linq;
 using App.Data;
+using App.Data.Repositories;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ public class CustomWebApplicationFactory<TProgram>
             {
                 options.UseInMemoryDatabase("InMemoryDbForTesting");
             });
+            services.AddTransient<BaseRepository>();
         });
         builder.UseEnvironment("Development");
     }

@@ -7,13 +7,15 @@
     &lt;/TestAncestor&gt;
   &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66e0c094_002Db097_002D410a_002Da9bd_002Dcfe74b865dbb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MuscleEnumListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66e0c094_002Db097_002D410a_002Da9bd_002Dcfe74b865dbb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MuscleEnumListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.MuscleEnumListTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.TestBaseRepository&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ca0bc19_002D1760_002D4248_002D8819_002De72d2828a8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PostTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ca0bc19_002D1760_002D4248_002D8819_002De72d2828a8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.MuscleEnumListTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.TestBaseRepository&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
