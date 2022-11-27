@@ -46,7 +46,7 @@ public class BasicTests
             WorkoutMuscle = new List<Muscle>{Muscle.Abdominals}
         };
 
-        await baseRepository.Set<WorkoutModel, Workout>(expected);
+        await baseRepository?.Set<WorkoutModel, Workout>(expected)!;
 
         var actual = await baseRepository.Get<Workout, WorkoutModel>(expected.Id);
         
