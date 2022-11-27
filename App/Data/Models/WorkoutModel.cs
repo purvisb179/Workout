@@ -1,4 +1,3 @@
-using App.Data.Models;
 using App.Enum;
 
 namespace App.Models;
