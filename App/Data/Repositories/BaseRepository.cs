@@ -62,12 +62,18 @@ public class BaseRepository
         var entity = await Context.FindAsync<TEntity>(id);
         return await MapToModel<TEntity, TModel>(entity);
     }
+    
+    public async Task<TEntity?> Get<TEntity>(Guid id)
+        where TEntity : BaseEntity
+    {
+        return await Context.FindAsync<TEntity>(id);
+    }
 
     public async Task Del<Tentity>(Guid Id) 
         where Tentity : BaseEntity, new()
     {
-        var entity = new Tentity { Id = Id };
-        Context.Entry(entity).State = EntityState.Deleted;
+        var entity = await Get<Tentity>(Id);
+        Context.Remove(entity);
         await Context.SaveChangesAsync();
     }
 }
