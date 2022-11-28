@@ -13,7 +13,13 @@
     &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.TestBaseRepository&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ca0bc19_002D1760_002D4248_002D8819_002De72d2828a8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ca0bc19_002D1760_002D4248_002D8819_002De72d2828a8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PostTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.MuscleEnumListTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.TestBaseRepository&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ee5b69db_002Df089_002D4deb_002D9b08_002D0a8999cd2f22/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MuscleEnumListTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::404E316A-BC1E-4FC5-A4C6-414EFF03D35A::net6.0::App.test.MuscleTest.MuscleEnumListTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::C46A7545-946B-4268-8693-0300FD2DCDF8::net6.0::App.integration.test.BasicTests.TestBaseRepository&lt;/TestId&gt;

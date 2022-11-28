@@ -27,9 +27,6 @@ public class BaseRepository
                 .ForMember(entity => entity.Muscle, opt => opt.MapFrom(model => model))
                 .ReverseMap();
             cfg.CreateMap<Muscle, Muscle>();
-            // cfg
-            //     .CreateMap<WorkoutMuscleModel, Muscle>()
-            //     .ForMember(muscle => muscle , opt => opt.MapFrom(wm => wm.Muscle));
         });
         _mapper = new Mapper(config);
     }
@@ -64,5 +61,13 @@ public class BaseRepository
     {
         var entity = await Context.FindAsync<TEntity>(id);
         return await MapToModel<TEntity, TModel>(entity);
+    }
+
+    public async Task Del<Tentity>(Guid Id) 
+        where Tentity : BaseEntity, new()
+    {
+        var entity = new Tentity { Id = Id };
+        Context.Entry(entity).State = EntityState.Deleted;
+        await Context.SaveChangesAsync();
     }
 }

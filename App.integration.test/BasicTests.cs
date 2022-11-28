@@ -47,9 +47,12 @@ public class BasicTests
         };
 
         await baseRepository?.Set<WorkoutModel, Workout>(expected)!;
-
         var actual = await baseRepository.Get<Workout, WorkoutModel>(expected.Id);
-        
         Assert.Equal(expected.Id, actual.Id);
+        
+        await baseRepository?.Del<Workout>(expected.Id);
+        actual = await baseRepository.Get<Workout, WorkoutModel>(expected.Id);
+        Assert.NotEqual(expected.Id, actual.Id);
     }
+    
 }
